@@ -16,6 +16,22 @@ h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #BEE3DB;
+    color: #FAF9F9;
 
 }
+
+/* Header styles */
+header {
+    background-color: #555B6E;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+
+
+
