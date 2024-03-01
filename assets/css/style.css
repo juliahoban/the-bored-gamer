@@ -32,6 +32,12 @@ header {
 
 }
 
+#menu {
+    list-style-type: none;
+}
 
+main {
+    margin-top: 200px;
+}
 
 
