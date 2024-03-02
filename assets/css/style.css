@@ -29,6 +29,7 @@ h1 {
 
 h2 {
     font-family: "Roboto", sans-serif;
+    font-style: italic;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #f5f4ef;
@@ -48,6 +49,10 @@ header {
     display: flex;
     align-items: baseline;
     box-shadow: 0 2px 2px #686763;
+}
+
+#dice-header {
+color: #e07a5f;
 }
 
 #logo {
@@ -107,10 +112,12 @@ main {
 
 #why-visit {
     color: #f5f4ef;
-    font-size: 15px;
+    font-size: 13px;
     list-style-type: none;
     width: 100%;
-    padding: 10px;
+    padding: 10px 5px;
+    text-align: left;
+    text-transform: uppercase;
 }
 #hero-image {
     width: 100%;
