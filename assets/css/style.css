@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #4A4E69;
     font-family: "Roboto", sans-serif;
 }
 
@@ -16,13 +16,13 @@ h2 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #EDDCD2;
+    color: #F2E9E4;
 
 }
 
 /* Header styles */
 header {
-    background-color: #826E5A;
+    background-color: #22223B;
     position: fixed;
     width: 100%;
     padding: 10px;
@@ -44,10 +44,16 @@ main {
     height: fit-content;
     margin: auto;
     padding: 10px;
-    background: url(../images/gamedrink.jpg) no-repeat center center/cover;
+    background-color: #4A4E69;
 }
 
 p {
-    color: #FFF1E6;
+    color: #F2E9E4;
+}
+
+#azul {
+    width: 100%;
+    border: 1px solid #F2E9E4;
+    border-radius: 25%;
 }
 
