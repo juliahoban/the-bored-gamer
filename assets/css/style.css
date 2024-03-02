@@ -110,15 +110,18 @@ main {
 }
 
 #why-visit {
-    color: #f5f4ef;
-    font-size: 13px;
+    color: #E5E2D9;
+    font-size: 15px;
     list-style-type: none;
-    padding: 10px 5px;
-    text-align: left;
+    padding: 4px 10px;
+    text-align: start;
 }
 
 #why-visit-list {
-background: url("../images/azul.jpg") no-repeat center center/cover;
+background: url("../images/tokens.jpg") no-repeat center center/cover;
+opacity: 0.8;
+height: 300px;
+
 }
 
 /* #hero-image { */
