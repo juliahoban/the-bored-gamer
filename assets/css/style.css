@@ -29,10 +29,10 @@ h1 {
 
 h2 {
     font-family: "Roboto", light, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #f5f4ef;
+    color: #686763;
     text-align: center;
     font-size: 23px;
 
@@ -100,25 +100,28 @@ li a {
 }
 
 main {
-    margin-top: 113px;
+    margin-top: 120px;
 }
 
 #hero {
     height: fit-content;
     margin: auto;
     padding: 10px;
-    background-color: rgba(104, 103, 99);
 }
 
 #why-visit {
     color: #f5f4ef;
     font-size: 13px;
     list-style-type: none;
-    width: 100%;
     padding: 10px 5px;
     text-align: left;
 }
-#hero-image {
+
+#why-visit-list {
+background: url("../images/azul.jpg") no-repeat center center/cover;
+}
+
+/* #hero-image { */
     width: 100%;
     box-shadow: 0 2px 2px #f5f4ef;
 }
@@ -138,18 +141,15 @@ main {
 
 #contact-details {
     width: 100%;
-    border: #686763 solid 2px;
-    text-align: center;
+    text-align: left;
 }
 
 th {
     font-size: 14px;
-    border: 1px solid #686763;
 }
 
 td {
     font-size: 12px;
-    border: 1px solid #686763;
     padding: 5px;
 }
 
