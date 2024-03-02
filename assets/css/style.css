@@ -50,6 +50,11 @@ header {
     box-shadow: 0 2px 2px #686763;
 }
 
+#logo {
+    font-size: 25px;
+}
+
+
 header a {
     text-decoration: none;
 }
@@ -90,7 +95,7 @@ li a {
 }
 
 main {
-    margin-top: 140px;
+    margin-top: 113px;
 }
 
 #hero {
@@ -109,6 +114,7 @@ main {
 }
 #hero-image {
     width: 100%;
+    box-shadow: 0 2px 2px #f5f4ef;
 }
 
 #about-us {
