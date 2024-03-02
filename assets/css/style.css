@@ -114,3 +114,27 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+/* Contact us section */
+#contact-us {
+    color: #686763;
+    letter-spacing: 0px;
+    font-size: 90%;
+
+}
+
+#contact-details {
+    width: 100%;
+    border: #686763 solid 2px;
+    text-align: center;
+}
+
+th {
+    font-size: 14px;
+    border: 1px solid #686763;
+}
+
+td {
+    font-size: 12px;
+    border: 1px solid #686763;
+}
