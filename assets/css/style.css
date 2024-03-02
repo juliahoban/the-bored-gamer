@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
 
 /* General styles */
 body {
@@ -7,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #4A4E69;
+    color: #686763;
     font-family: "Roboto", sans-serif;
 }
 
@@ -15,8 +16,14 @@ h1 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #22223B;
+    color: #686763;
 
+}
+
+#cafe {
+    font-family: "satisfy", sans-serif;
+    text-transform: lowercase;
+    font-size: 90%;
 }
 
 
@@ -24,52 +31,82 @@ h2 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #F2E9E4;
+    color: #f5f4ef;
     text-align: center;
 
 }
 
 /* Header styles */
 header {
-    background-color: #F2E9E4;
+    background-color: #f5f4ef;
     position: fixed;
     width: 91%;
-    padding: 4px;
+    padding: 5px;
     margin: auto;
     text-align: left;
     display: flex;
     align-items: baseline;
-    box-shadow: 0 2px 2px #22223B;
+    box-shadow: 0 2px 2px #686763;
+}
 
+header a {
+    text-decoration: none;
 }
 
 
 #menu {
+    font-size: 100%;
     list-style-type: none;
     margin: auto;
     padding: 4px;
 }
 
+nav {
+    position: absolute;
+    background-color: #f5f4ef;
+    color: #686763;
+    width: 100%;
+    left: 0;
+    display: none;
+    top: 100%;
+    
+}
+
+li a {
+    color: #686763;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 35px;
+}
+
 main {
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 #hero {
     height: fit-content;
     margin: auto;
     padding: 10px;
-    background-color: #4A4E69;
+    background-color: #686763;
 }
 
 p {
-    color: #F2E9E4;
+    color: #f5f4ef;
     text-align: justify;
     padding: 2px;
 }
 
-#azul {
+#hero-image {
     width: 100%;
-    border: 1px solid #F2E9E4;
     border-radius: 25%;
 }
 
