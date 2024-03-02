@@ -33,6 +33,7 @@ h2 {
     letter-spacing: 1px;
     color: #f5f4ef;
     text-align: center;
+    font-size: 17px;
 
 }
 
@@ -96,18 +97,18 @@ main {
     height: fit-content;
     margin: auto;
     padding: 10px;
-    background-color: #686763;
+    background-color: rgba(104, 103, 99);
 }
 
-p {
+#why-visit {
     color: #f5f4ef;
-    text-align: justify;
-    padding: 2px;
+    font-size: 15px;
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
 }
-
 #hero-image {
     width: 100%;
-    border-radius: 25%;
 }
 
 #about-us {
