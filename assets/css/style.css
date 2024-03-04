@@ -12,6 +12,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 h1 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
@@ -43,7 +49,7 @@ header {
     background-color: #f5f4ef;
     z-index: 1;
     position: fixed;
-    width: 91%;
+    width: 100%;
     padding: 5px;
     margin-right: 5px;
     text-align: left;
@@ -69,7 +75,6 @@ header a {
 #menu {
     font-size: 100%;
     list-style-type: none;
-    margin: auto;
     padding: 4px;
 }
 
@@ -170,11 +175,14 @@ iframe {
     background-color: rgba(0, 0, 0, .7);
     padding: 20px;
     text-align: center;
-    flex-basis: 200px;
+    flex-basis: 140px;
     flex-grow: 1;
     border: 1px solid #f5f4ef;
 }
 
+.fa-people-group, .fa-people-roof, .fa-children {
+    color: #e07a5f;
+}
 /* Footer */
 
 #social-networks {
@@ -183,4 +191,26 @@ iframe {
     justify-content: space-evenly;
     padding: 0;
     font-size: 25px;
+}
+
+/* Media query: tablets and larger (768px and up */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    
+
+
 }
