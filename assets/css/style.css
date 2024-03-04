@@ -47,7 +47,7 @@ h2 {
 /* Header styles */
 header {
     background-color: #f5f4ef;
-    z-index: 1;
+    z-index: 99;
     position: fixed;
     width: 100%;
     padding: 5px;
@@ -86,7 +86,6 @@ nav {
     left: 0;
     display: none;
     top: 100%;
-    
 }
 
 li a {
@@ -105,6 +104,7 @@ li a {
     font-size: 35px;
 }
 
+/* Main Content */
 main {
     margin-top: 120px;
 }
@@ -116,18 +116,17 @@ main {
 }
 
 #why-visit {
-    color: #E5E2D9;
+    color: #ffffff;
     font-size: 15px;
     list-style-type: none;
-    padding: 4px 10px;
+    padding: 33px 10px;
     text-align: start;
 }
 
 #why-visit-list {
 background: url("../images/tokens.jpg") no-repeat center center/cover;
-opacity: 0.8;
 height: 300px;
-
+background-color: rgba(104, 103, 99, 0.8);
 }
 
 #about-us {
@@ -157,6 +156,7 @@ td {
     padding: 5px;
 }
 
+/* iframe */
 iframe {
     width: 100%;
     margin-top: 20px;
@@ -188,6 +188,7 @@ iframe {
 #social-networks {
     list-style-type: none;
     display: flex;
+    align-items: flex-end;
     justify-content: space-evenly;
     padding: 0;
     font-size: 25px;
@@ -212,5 +213,5 @@ iframe {
 
     
 
-
+}
 }
