@@ -155,7 +155,7 @@ td {
 iframe {
     width: 100%;
     margin-top: 20px;
-    height: 100px;
+    height: 200px;
 }
 
 /* Hire Page */
@@ -167,12 +167,15 @@ iframe {
 
 #price-list div {
     color: #f5f4ef;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 20px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 1px solid #f5f4ef;
 }
 
 /* Footer */
-footer {
-    box-shadow: 0 0 2px #686763;
-}
 
 #social-networks {
     list-style-type: none;
