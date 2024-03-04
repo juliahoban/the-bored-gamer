@@ -41,7 +41,8 @@ h2 {
 /* Header styles */
 header {
     background-color: #f5f4ef;
-    position: absolute;
+    z-index: 1;
+    position: fixed;
     width: 91%;
     padding: 5px;
     margin-right: 5px;
@@ -124,11 +125,6 @@ height: 300px;
 
 }
 
-/* #hero-image { */
-    width: 100%;
-    box-shadow: 0 2px 2px #f5f4ef;
-}
-
 #about-us {
     display: flex;
     flex-direction: column;
@@ -162,12 +158,26 @@ iframe {
     height: 100px;
 }
 
+/* Hire Page */
+#price-list {
+    background: url(../images/group.jpg) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#price-list div {
+    color: #f5f4ef;
+}
+
 /* Footer */
+footer {
+    box-shadow: 0 0 2px #686763;
+}
+
 #social-networks {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     padding: 0;
     font-size: 25px;
-
 }
