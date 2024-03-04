@@ -115,6 +115,9 @@ main {
     padding: 10px;
 }
 
+#visit-header {
+    margin-bottom: 20px;
+}
 #why-visit {
     color: #ffffff;
     font-size: 15px;
@@ -126,7 +129,6 @@ main {
 #why-visit-list {
 background: url("../images/tokens.jpg") no-repeat center center/cover;
 height: 300px;
-background-color: rgba(104, 103, 99, 0.8);
 }
 
 #about-us {
