@@ -41,6 +41,7 @@ h2 {
     color: #686763;
     text-align: center;
     font-size: 23px;
+    margin-bottom: 20px;
 
 }
 
@@ -115,9 +116,6 @@ main {
     padding: 10px;
 }
 
-#visit-header {
-    margin-bottom: 20px;
-}
 #why-visit {
     color: #ffffff;
     font-size: 15px;

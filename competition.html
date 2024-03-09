@@ -22,7 +22,8 @@
     <!--Header-->
     <header>
         <a href="index.html">
-            <h1 id="logo"><span id="dice-header"><i class="fa-solid fa-dice"></i></span> The Bored Gamer <span id="cafe">cafe</span></h1>
+            <h1 id="logo"><span id="dice-header"><i class="fa-solid fa-dice"></i></span> The Bored Gamer <span
+                    id="cafe">cafe</span></h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -37,16 +38,80 @@
 
     <!--Main content-->
     <main>
-        Main Content
+        <section>
+            <form action="" id="prize-draw" method="post">
+                <h2>Enter Our Prize Draw</h2>
+                <div>
+                    <h4>Contact Details:</h4>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" name="full-name" id="full-name" required>
+                    <br>
+                    <label for="email-address">Your Email:</label>
+                    <input type="email" name="email-address" id="email-address" required>
+                    <br>
+                </div>
+                <div class="age-checkbox">
+                    <h4>Your Age:</h4>
+                    <div>
+                        <label for="age-20">Under 20</label>
+                        <input type="radio" name="age" id="age-20" checked required>
+                    </div>
+                    <div>
+                        <label for="age-30">20-30</label>
+                        <input type="radio" name="age" id="age-30" required>
+                    </div>
+                    <div>
+                        <label for="age-40">30-40</label>
+                        <input type="radio" name="age" id="age-40" required>
+                    </div>
+                    <div>
+                        <label for="over-40">Over 40</label>
+                        <input type="radio" name="age" id="over-40" required>
+                    </div>
+                </div>
+                <div class="game-genre">
+                    <h4>Favourite Game Genre:</h4>
+                    <div>
+                        <label for="rpg">RPG</label>
+                        <input type="checkbox" name="rpg" id="rpg">
+                    </div>
+                    <div>
+                        <label for="worker-placement">Worker Placement</label>
+                        <input type="checkbox" name="worker-placement" id="worker-placement">
+                    </div>
+                    <div>
+                        <label for="deckbuilders">Deckbuilders</label>
+                        <input type="checkbox" name="deckbuilders" id="deckbuilders">
+                    </div>
+                    <div>
+                        <label for="combat ">Combat</label>
+                        <input type="checkbox" name="combat" id="combat">
+                    </div>
+                    <div>
+                        <label for="cooperative ">Cooperative</label>
+                        <input type="checkbox" name="cooperative" id="cooperative">
+                    </div>
+                    <div>
+                        <label for="other-games">Other</label>
+                        <input type="checkbox" name="other-games" id="other-games">
+                    </div>
+                </div>
+                <button type="submit" id="submit-button">Submit</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <ul id="social-networks">
             <li><a href="http://www.Facebook.com/" target="_blank" rel="noopener"
-                aria-label="visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    aria-label="visit our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
             <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-                aria-label="visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                    aria-label="visit our Twitter page (opens in a new tab)"><i
+                        class="fa-brands fa-square-x-twitter"></i></a></li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    aria-label="visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
         </ul>
     </footer>
     <!--Font Awesome Kit-->
