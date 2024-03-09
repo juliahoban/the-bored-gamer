@@ -195,6 +195,28 @@ iframe {
     font-size: 25px;
 }
 
+/* Competition Page */
+
+#competition-page {
+    background-image: url(../images/vynil.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#prize-header {
+    color: #f5f4ef;
+}
+
+#prize-draw {
+    border: #f5f4ef solid;
+    padding: 20px;
+    margin: 23px;
+    color: #f5f4ef;
+}
+
 /* Media query: tablets and larger (768px and up */
 @media screen and (min-width: 768px) {
     nav {
