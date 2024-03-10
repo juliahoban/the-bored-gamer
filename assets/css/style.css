@@ -143,20 +143,33 @@ main {
 }
 
 #why-visit {
-    color: #ffffff;
+    color: #686763;
     font-size: 15px;
     list-style-type: none;
     padding: 33px 10px;
     text-align: start;
 }
 
+#why-visit > li {
+    padding: 5px;
+}
+
+#backgammon {
+    background: url("../images/backgammon.jpg") no-repeat top center / cover;
+    height: 150px;
+    width: 130px;
+    margin-top: 63px;
+}
 
 #about-us {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    
 }
 
-#about-us > h2 {
+h2 {
     margin-top: 20px;
 }
 
