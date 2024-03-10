@@ -116,6 +116,26 @@ main {
     min-height: 80vh;
 }
 
+/* Hero image styles */
+#hero-image {
+    background: url(../images/group.jpg) no-repeat center center/cover;
+    height: 250px;
+}
+
+#welcome-text {
+    background-color: rgba(104, 103, 99, .7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 50%;
+}
+
+#welcome-text > h1 {
+    color: #f5f4ef;
+    font-size: 200%;
+    font-weight: 300;
+}
+
 #hero {
     height: fit-content;
     margin: auto;
@@ -130,14 +150,14 @@ main {
     text-align: start;
 }
 
-#why-visit-list {
-background: url("../images/tokens.jpg") no-repeat center center/cover;
-height: 300px;
-}
 
 #about-us {
     display: flex;
     flex-direction: column;
+}
+
+#about-us > h2 {
+    margin-top: 20px;
 }
 
 /* Contact us section */
