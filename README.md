@@ -8,37 +8,32 @@ Deployed project can be viewed here [The Bored Gamer Cafe](https://juliahoban.gi
 
 # Contents
 
-* [User Experience] (#user-experience)
+* [User Experience](#user-experience)
+    * [Website Overview](#website-Overview)
+    * [Website Pages](#website-pages)
+    * [Visitor Goals](#visitor-goals)
 
-        * [Website Overview] (#website-overview)
-        * [Website Pages] (#website-pages)
-        * [Visitor Goals] (#visitor-goals)
+* [Design](#design)
+   * [Colour Scheme](#colour-scheme)
+   * [Fonts](#fonts)
+   * [Images](#images)
+   * [Features](#features)
 
-* [Design] (#design)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages)
+    * [Programs and Libraries Used](#programs-and-libraries-used)
 
-        * [Colour Scheme] (#colour-scheme)
-        * [Fonts] (#fonts)
-        * [Images] (#images)
-        * [Features] (#features)
+* [Deployment](#deployment)
 
-* [Technologies Used] (#technologies-used)
+* [Testing](#testing)
+    * [W3C Validator](#w3c-validator)
+    * [Solved Bugs](#solved-bugs)
+    * [Lighthouse](#lighthouse)
 
-        * [Languages Used] (#languages)
-        * [Programs and Libraries Used] (#programs-and-libraries-used)
-
-* [Deployment] (#deployment)
-
-* [Testing] (#testing)
-
-        * [W3C Validator] (#w3c-validator)
-        * [Solved Bugs] (#solved-bugs)
-        * [Lighthouse] (#lighthouse)
-
-* [Credits] (#credits)
-
-        * [Code Used] (#code-used)
-        * [Media] (#media)
-        * [Aknowledgements] (#aknowledgements)
+* [Credits](#credits)
+    * [Code Used](#code-used)
+    * [Media](#media)
+    * [Aknowledgements](#aknowledgements)
 
 - - - 
 
