@@ -55,7 +55,7 @@ header {
     margin-right: 5px;
     text-align: left;
     display: flex;
-    align-items: baseline;
+    justify-content: space-between;
     box-shadow: 0 2px 2px #686763;
 }
 
@@ -91,6 +91,11 @@ nav {
 
 li a {
     color: #686763;
+    padding: 6px;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 #nav-toggle:checked~nav {
