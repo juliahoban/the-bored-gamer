@@ -270,7 +270,6 @@ body {
         background-image: url(../images/vynil.jpg);
         background-size: cover;
         background-position: center;
-        opacity: 80%;
         display: flex;
         justify-content: center;
     }
@@ -280,11 +279,17 @@ body {
     }
 
     #prize-draw {
+        background-color: rgba(104, 103, 99, .6);
         border: #f5f4ef solid;
         padding: 20px;
         margin: 23px;
         color: #f5f4ef;
+        font-weight: 400;
     }
+
+    #submit-button {
+        font-size: 15px;
+        
 
     /* Media query: tablets and larger (768px and up */
     @media screen and (min-width: 768px) {
@@ -302,5 +307,4 @@ body {
         .nav-toggle-label {
             display: none;
         }
-
-    }
+    }}}
