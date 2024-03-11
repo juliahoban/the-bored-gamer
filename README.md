@@ -54,5 +54,49 @@ There is also a footer where the social media pages can be found.
 
 ### Colour Scheme
 
+![The Bored Gamer Website Colour Palette](docs/bored-gamer-colour-palette.png)
 
-    
+The above vintage colour palette from [Coolors Website](https://coolors.co/) along with Burnt Sienna has been used throughout The Bored Gamer website.
+
+### Fonts
+
+Mainly Roboto font has been used throughout the website with different styles and weights applied. The "cafe" word in the header has been styled using Satisfy font. Both fonts have been imported from [Gooogle Fonts Website](https://fonts.google.com/).
+
+### Images
+
+There are four images in total used throughout the website, all have been downloaded from [Pexels Website](https://www.pexels.com/). Images have also been compressed to png format to allow for a better Lighthouse performance score.
+
+### Features
+
+## Technologies Used
+
+### Languages Used
+
+The website has been built using purely HTML and CSS.
+
+### Programs and Libraries Used
+ 
+ * Git - for version control
+ * Github - to save and store the website files
+ * Google Fonts - to import chosen fonts
+ * Font Awesome - to import chosen text icons
+ * Chrome Dev Tools - to identify and fix bugs
+ * [Favicon Generator](https://realfavicongenerator.net/) - to create a favicon
+
+## Deployment
+
+## Testing
+
+### W3C Validator
+
+### Solved Bugs
+
+### Lighthouse
+
+## Credits
+
+### Code Used
+
+### Media
+
+### Aknowledgements
