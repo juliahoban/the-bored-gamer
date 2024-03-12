@@ -118,7 +118,7 @@ body {
 
     /* Hero image styles */
     #hero-image {
-        background: url(../images/group.jpg) no-repeat center center/cover;
+        background: url(../images/group.webp) no-repeat center center/cover;
         height: 250px;
         margin-bottom: 20px;
         display: flex;
@@ -174,7 +174,7 @@ body {
 
 
     #azul {
-        background: url("../images/azul.jpg") no-repeat top center / cover;
+        background: url("../images/azul.webp") no-repeat top center / cover;
         opacity: 90%;
         height: 150px;
         width: 150px;
@@ -183,7 +183,7 @@ body {
     }
 
     #backgammon {
-        background: url("../images/backgammon.jpg") no-repeat top center / cover;
+        background: url("../images/backgammon.webp") no-repeat top center / cover;
         opacity: 90%;
         height: 150px;
         width: 150px;
@@ -192,7 +192,7 @@ body {
     }
 
     #workerplacement {
-        background: url("../images/workerplacement.jpg") no-repeat top center / cover;
+        background: url("../images/workerplacement.webp") no-repeat top center / cover;
         opacity: 90%;
         height: 150px;
         width: 150px;
@@ -232,7 +232,7 @@ body {
 
     /* Hire Page */
     #price-list {
-        background: url(../images/group.jpg) no-repeat center/cover;
+        background: url(../images/group.webp) no-repeat center/cover;
         display: flex;
         flex-wrap: wrap;
     }
@@ -267,7 +267,7 @@ body {
     /* Competition Page */
 
     #competition-page {
-        background-image: url(../images/vynil.jpg);
+        background: url(../images/vynil.webp) no-repeat center;
         background-size: cover;
         background-position: center;
         display: flex;
@@ -289,6 +289,7 @@ body {
 
     #submit-button {
         font-size: 15px;
+    }
         
 
     /* Media query: tablets and larger (768px and up */
@@ -307,4 +308,5 @@ body {
         .nav-toggle-label {
             display: none;
         }
-    }}}
+
+    }}
