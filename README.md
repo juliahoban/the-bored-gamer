@@ -82,6 +82,7 @@ The website has been built using purely HTML and CSS.
  * Font Awesome - to import chosen text icons
  * Chrome Dev Tools - to identify and fix bugs
  * [Favicon Generator](https://realfavicongenerator.net/) - to create a favicon
+ * [TinyPNG](https://tinypng.com/) - to compress images for better performance
 
 ## Deployment
 
