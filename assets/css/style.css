@@ -182,7 +182,7 @@ body {
 
     #azul {
         background: url("../images/azul.webp") no-repeat top center / cover;
-        opacity: 90%;
+        opacity: 80%;
         height: 150px;
         width: 150px;
         border-radius: 50%;
@@ -191,7 +191,7 @@ body {
 
     #backgammon {
         background: url("../images/backgammon.webp") no-repeat top center / cover;
-        opacity: 90%;
+        opacity: 80%;
         height: 150px;
         width: 150px;
         border-radius: 50%;
@@ -200,7 +200,7 @@ body {
 
     #workerplacement {
         background: url("../images/workerplacement.webp") no-repeat top center / cover;
-        opacity: 90%;
+        opacity: 80%;
         height: 150px;
         width: 150px;
         border-radius: 50%;
