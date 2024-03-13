@@ -26,16 +26,10 @@ body {
 
     }
 
-    #cafe {
-        font-family: "satisfy", sans-serif;
-        text-transform: lowercase;
-        font-size: 90%;
-    }
-
-
+    /* h2 General styles */
     h2 {
         font-family: "Roboto", light, sans-serif;
-        font-weight: 500;
+        font-weight: 300;
         letter-spacing: 1px;
         text-transform: uppercase;
         color: #686763;
@@ -68,11 +62,15 @@ body {
         font-size: 25px;
     }
 
+    #cafe {
+        font-family: "satisfy", sans-serif;
+        text-transform: lowercase;
+        font-size: 90%;
+    }
 
     header a {
         text-decoration: none;
     }
-
 
     #menu {
         font-size: 100%;
@@ -179,7 +177,7 @@ body {
         text-align: center;
     }
 
-
+    /* Images styles */
     #azul {
         background: url("../images/azul.webp") no-repeat top center / cover;
         opacity: 80%;
@@ -259,6 +257,29 @@ body {
     .fa-people-roof,
     .fa-children {
         color: #e07a5f;
+    }
+
+    /* Booking form styles */
+    #booking {
+        margin-top: 20px;
+        background: url(../images/kids.webp);
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        flex-grow: 1;
+    }
+
+
+    #booking-form {
+        background-color: rgba(104, 103, 99, .6);
+        border: #f5f4ef solid;
+        color: #f5f4ef;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #booking-form > div {
+        padding: 5px;
     }
 
     /* Footer */
