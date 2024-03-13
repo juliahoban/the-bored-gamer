@@ -57,6 +57,7 @@ body {
         display: flex;
         justify-content: space-between;
         box-shadow: 0 2px 2px #686763;
+        align-items: baseline;
     }
 
     #dice-header {
@@ -174,7 +175,8 @@ body {
     }
 
     .visit {
-        padding: 3px;
+        padding: 5px;
+        text-align: center;
     }
 
 
@@ -209,8 +211,9 @@ body {
     #contact-us {
         color: #686763;
         letter-spacing: 0px;
-        font-size: 90%;
+        font-size: 20px;
         text-decoration: underline 1px;
+        margin-bottom: 0px;
     }
 
     #contact-details {
@@ -220,11 +223,11 @@ body {
     }
 
     th {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     td {
-        font-size: 12px;
+        font-size: 15px;
         padding: 5px;
     }
 
@@ -265,18 +268,19 @@ body {
         display: flex;
         align-items: flex-end;
         justify-content: space-evenly;
-        padding: 0;
+        padding: 10px 0;
         font-size: 25px;
+        display: flex;
     }
 
     /* Competition Page */
 
     #competition-page {
-        background: url(../images/vynil.webp) no-repeat center;
+        background: url(../images/vynil.webp);
         background-size: cover;
         background-position: center;
-        display: flex;
-        justify-content: center;
+        padding: 10px;
+        flex-grow: 1;
     }
 
     #prize-header {
@@ -312,6 +316,58 @@ body {
 
         .nav-toggle-label {
             display: none;
+        }
+
+        #hero-image {
+            height: 400px;
+        }
+
+        #welcome-text>h1 {
+            font-size: 300%;
+        }
+
+        #hero>h2 {
+            font-size: 30px;
+        }
+
+        .visit {
+            font-size: 25px;
+        }
+
+        #azul {
+            height: 250px;
+            width: 250px;
+        }
+
+        #backgammon {
+            height: 250px;
+            width: 250px;
+        }
+
+        #workerplacement {
+            height: 250px;
+            width: 250px;
+        }
+
+        #competition-page {
+            background-position: center;
+            position: relative;
+        }
+
+        th {
+            font-size: 25px;
+        }
+
+        td {
+            font-size: 20px;
+            padding: 5px;
+        }
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        #hero-image {
+            height: 600px;
         }
 
     }
