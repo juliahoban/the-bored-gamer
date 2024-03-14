@@ -238,7 +238,8 @@ iframe {
     border: #686763 solid;
     color: #686763;
     padding: 5px;
-    margin: 5px;
+    margin: auto;
+    width: fit-content;
 }
 
 #booking-form>div {
@@ -264,7 +265,7 @@ iframe {
 /* Competition Page */
 
 #competition-page {
-    background: url(../images/vynil.webp);
+    background: url(../images/gamedrink.webp);
     background-size: cover;
     background-position: center;
     padding: 10px;
@@ -276,16 +277,24 @@ iframe {
 }
 
 #prize-draw {
-    background-color: rgba(104, 103, 99, .6);
+    background-color: rgba(104, 103, 99, .8);
     border: #f5f4ef solid;
     padding: 20px;
-    margin: 23px;
+    margin: auto;
     color: #f5f4ef;
     font-weight: 400;
+    width: fit-content;
 }
 
 #submit-button {
     font-size: 15px;
+}
+
+#winner {
+    color: #f5f4ef;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
 }
 
 
