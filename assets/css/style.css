@@ -300,7 +300,6 @@ iframe {
 /* 404 Error Page Styles */
 #error-page {
     display: flex;
-    justify-content: center;
 }
 
 
