@@ -297,6 +297,12 @@ iframe {
     font-weight: 300;
 }
 
+/* 404 Error Page Styles */
+#error-page {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Media query: tablets and larger (768px and up */
 @media screen and (min-width: 768px) {
