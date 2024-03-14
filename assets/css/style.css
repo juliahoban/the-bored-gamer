@@ -17,379 +17,352 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
 
-    h1 {
-        font-family: "Roboto", sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #686763;
+h1 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #686763;
 
-    }
+}
 
-    /* h2 General styles */
-    h2 {
-        font-family: "Roboto", light, sans-serif;
-        font-weight: 300;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: #686763;
-        text-align: center;
-        font-size: 23px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+/* h2 General styles */
+h2 {
+    font-family: "Roboto", light, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #686763;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
-    }
+}
 
-    /* Header styles */
-    header {
-        background-color: #f5f4ef;
-        z-index: 99;
-        position: fixed;
-        width: 100%;
-        padding: 5px;
-        text-align: left;
-        display: flex;
-        justify-content: space-between;
-        box-shadow: 0 2px 2px #686763;
-        align-items: baseline;
-    }
+/* Header styles */
+header {
+    background-color: #f5f4ef;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px #686763;
+    align-items: baseline;
+}
 
-    #dice-header {
-        color: #e07a5f;
-    }
+#dice-header {
+    color: #e07a5f;
+}
 
-    #logo {
-        font-size: 25px;
-    }
+#logo {
+    font-size: 25px;
+}
 
-    #cafe {
-        font-family: "satisfy", sans-serif;
-        text-transform: lowercase;
-        font-size: 90%;
-    }
+#cafe {
+    font-family: "satisfy", sans-serif;
+    text-transform: lowercase;
+    font-size: 90%;
+}
 
-    header a {
-        text-decoration: none;
-    }
+header a {
+    text-decoration: none;
+}
 
-    #menu {
-        font-size: 100%;
-        list-style-type: none;
-        padding: 4px;
-    }
+#menu {
+    font-size: 100%;
+    list-style-type: none;
+    padding: 4px;
+}
 
+nav {
+    position: absolute;
+    background-color: #f5f4ef;
+    color: #686763;
+    width: 100%;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
+li a {
+    color: #686763;
+    padding: 6px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 35px;
+}
+
+/* Main Content */
+main {
+    margin-top: 120px;
+    min-height: 80vh;
+}
+
+/* Hero image styles */
+#hero-image {
+    background: url(../images/group.webp) no-repeat center center/cover;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#welcome-text {
+    background-color: rgba(104, 103, 99, .7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-text>h1 {
+    color: #f5f4ef;
+    font-size: 200%;
+    font-weight: 300;
+}
+
+#hero {
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Why visit us section */
+
+#hero>h2 {
+    text-decoration: underline 1px;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.visit {
+    padding: 5px;
+    text-align: center;
+}
+
+/* Images styles */
+.list-image {
+    opacity: 80%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+}
+
+
+
+/* Contact us section */
+#contact-us {
+    color: #686763;
+    letter-spacing: 0px;
+    font-size: 20px;
+    text-decoration: underline 1px;
+    margin-bottom: 0px;
+}
+
+#contact-details {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+th {
+    font-size: 17px;
+}
+
+td {
+    font-size: 15px;
+    padding: 5px;
+}
+
+/* iframe */
+iframe {
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+}
+
+/* Hire Page */
+#price-list {
+    background: url(../images/group.webp) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#price-list div {
+    color: #f5f4ef;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 20px;
+    text-align: center;
+    flex-basis: 140px;
+    flex-grow: 1;
+    border: 1px solid #f5f4ef;
+}
+
+.fa-people-group,
+.fa-people-roof,
+.fa-children {
+    color: #e07a5f;
+}
+
+/* Booking form styles */
+#booking {
+    margin-top: 20px;
+    background: url(../images/kids.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+
+#booking-form {
+    background-color: rgba(104, 103, 99, .6);
+    border: #f5f4ef solid;
+    color: #f5f4ef;
+    padding: 5px;
+    margin: 5px;
+}
+
+#booking-form>div {
+    padding: 5px;
+}
+
+/* Footer */
+
+#social-networks {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    font-size: 25px;
+    display: flex;
+}
+
+/* Competition Page */
+
+#competition-page {
+    background: url(../images/vynil.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+#prize-header {
+    color: #f5f4ef;
+}
+
+#prize-draw {
+    background-color: rgba(104, 103, 99, .6);
+    border: #f5f4ef solid;
+    padding: 20px;
+    margin: 23px;
+    color: #f5f4ef;
+    font-weight: 400;
+}
+
+#submit-button {
+    font-size: 15px;
+}
+
+
+/* Media query: tablets and larger (768px and up */
+@media screen and (min-width: 768px) {
     nav {
-        position: absolute;
-        background-color: #f5f4ef;
-        color: #686763;
-        width: 100%;
-        left: 0;
-        display: none;
-        top: 100%;
-    }
-
-    li a {
-        color: #686763;
-        padding: 6px;
-    }
-
-    li a:hover {
-        text-decoration: underline;
-    }
-
-    #nav-toggle:checked~nav {
         display: block;
-    }
-
-    #nav-toggle {
-        display: none;
-    }
-
-    .nav-toggle-label {
-        font-size: 35px;
-    }
-
-    /* Main Content */
-    main {
-        margin-top: 120px;
-        min-height: 80vh;
-    }
-
-    /* Hero image styles */
-    #hero-image {
-        background: url(../images/group.webp) no-repeat center center/cover;
-        height: 250px;
-        margin-bottom: 20px;
-        display: flex;
-    }
-
-    #welcome-text {
-        background-color: rgba(104, 103, 99, .7);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        text-align: center;
-        width: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #welcome-text>h1 {
-        color: #f5f4ef;
-        font-size: 200%;
-        font-weight: 300;
-    }
-
-    #hero {
-        height: fit-content;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* Why visit us section */
-
-    #hero>h2 {
-        text-decoration: underline 1px;
-    }
-
-    #about-us {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        box-shadow: none;
         width: fit-content;
     }
 
-    #why-visit {
-        color: #686763;
-        font-size: 18px;
-        list-style-type: none;
-        padding: 10px;
+    #menu {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #hero-image {
+        height: 400px;
+    }
+
+    #welcome-text>h1 {
+        font-size: 300%;
+    }
+
+    #hero>h2 {
+        font-size: 30px;
     }
 
     .visit {
-        padding: 5px;
-        text-align: center;
+        font-size: 25px;
     }
 
-    /* Images styles */
     #azul {
-        background: url("../images/azul.webp") no-repeat top center / cover;
-        opacity: 80%;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        display: flex;
+        height: 250px;
+        width: 250px;
     }
 
     #backgammon {
-        background: url("../images/backgammon.webp") no-repeat top center / cover;
-        opacity: 80%;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        display: flex;
+        height: 250px;
+        width: 250px;
     }
 
     #workerplacement {
-        background: url("../images/workerplacement.webp") no-repeat top center / cover;
-        opacity: 80%;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        display: flex;
+        height: 250px;
+        width: 250px;
     }
 
-    /* Contact us section */
-    #contact-us {
-        color: #686763;
-        letter-spacing: 0px;
-        font-size: 20px;
-        text-decoration: underline 1px;
-        margin-bottom: 0px;
-    }
-
-    #contact-details {
-        width: 100%;
-        text-align: left;
-        padding: 20px;
+    #competition-page {
+        background-position: center;
+        position: relative;
     }
 
     th {
-        font-size: 17px;
+        font-size: 25px;
     }
 
     td {
-        font-size: 15px;
+        font-size: 20px;
         padding: 5px;
     }
 
-    /* iframe */
-    iframe {
-        width: 100%;
-        margin-top: 20px;
-        height: 200px;
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-image {
+        height: 600px;
     }
 
-    /* Hire Page */
-    #price-list {
-        background: url(../images/group.webp) no-repeat center/cover;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #price-list div {
-        color: #f5f4ef;
-        background-color: rgba(0, 0, 0, .7);
-        padding: 20px;
-        text-align: center;
-        flex-basis: 140px;
-        flex-grow: 1;
-        border: 1px solid #f5f4ef;
-    }
-
-    .fa-people-group,
-    .fa-people-roof,
-    .fa-children {
-        color: #e07a5f;
-    }
-
-    /* Booking form styles */
-    #booking {
-        margin-top: 20px;
-        background: url(../images/kids.webp);
-        background-size: cover;
-        background-position: center;
-        padding: 10px;
-        flex-grow: 1;
-    }
-
-
-    #booking-form {
-        background-color: rgba(104, 103, 99, .6);
-        border: #f5f4ef solid;
-        color: #f5f4ef;
-        padding: 5px;
-        margin: 5px;
-    }
-
-    #booking-form > div {
-        padding: 5px;
-    }
-
-    /* Footer */
-
-    #social-networks {
-        list-style-type: none;
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-evenly;
-        padding: 10px 0;
-        font-size: 25px;
-        display: flex;
-    }
-
-    /* Competition Page */
-
-    #competition-page {
-        background: url(../images/vynil.webp);
-        background-size: cover;
-        background-position: center;
-        padding: 10px;
-        flex-grow: 1;
-    }
-
-    #prize-header {
-        color: #f5f4ef;
-    }
-
-    #prize-draw {
-        background-color: rgba(104, 103, 99, .6);
-        border: #f5f4ef solid;
-        padding: 20px;
-        margin: 23px;
-        color: #f5f4ef;
-        font-weight: 400;
-    }
-
-    #submit-button {
-        font-size: 15px;
-    }
-
-
-    /* Media query: tablets and larger (768px and up */
-    @media screen and (min-width: 768px) {
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-        }
-
-        #menu {
-            display: flex;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        #hero-image {
-            height: 400px;
-        }
-
-        #welcome-text>h1 {
-            font-size: 300%;
-        }
-
-        #hero>h2 {
-            font-size: 30px;
-        }
-
-        .visit {
-            font-size: 25px;
-        }
-
-        #azul {
-            height: 250px;
-            width: 250px;
-        }
-
-        #backgammon {
-            height: 250px;
-            width: 250px;
-        }
-
-        #workerplacement {
-            height: 250px;
-            width: 250px;
-        }
-
-        #competition-page {
-            background-position: center;
-            position: relative;
-        }
-
-        th {
-            font-size: 25px;
-        }
-
-        td {
-            font-size: 20px;
-            padding: 5px;
-        }
-
-    }
-
-    @media screen and (min-width: 1200px) {
-        #hero-image {
-            height: 600px;
-        }
-
-    }
 }
