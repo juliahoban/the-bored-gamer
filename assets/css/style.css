@@ -270,7 +270,9 @@ iframe {
     background-size: cover;
     background-position: center;
     padding: 10px;
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #prize-header {
@@ -285,6 +287,7 @@ iframe {
     color: #f5f4ef;
     font-weight: 400;
     width: fit-content;
+    margin: 40px 20px 40px 20px;
 }
 
 #submit-button {
