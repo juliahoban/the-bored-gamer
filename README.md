@@ -67,12 +67,74 @@ There are six images in total used throughout the website, all have been importe
 The Bored Gamer website consists of 4 pages: Home page, Board Game Hire Page, Competition Entry page and 404 Error page, which is hidden and would only be displayed if a user enters the name of the website incorrectly.
 
 **The Header**
-![header]()
-The header of the website shows the name of the cafe and a navigation bar.
-Home page displays a hero image of the group of people enjoying the game with the welcome text over it and a list of why people should visit the cafe, contact details and location map.
-Board Game Hire page shows the price list for different group sizes and has a booking form.
-There is also a Competition Entry page whis has got a form to complete, asking questions like contact details, age and a favourite board game genre.
-There is also a footer where the social media pages can be found.
+
+![header](assets/docs/features/header.png)
+
+The header of the website shows the name of the cafe and a navigation bar. It is fully responsive to work on any device and collapses into a burger icon when viewed on mobile screens.
+
+**The Footer**
+
+![footer](assets/docs/features/footer.png)
+
+The footer displays three social media clicable links to take the user directly to social media pages. The footer is fully responsive to work on any device.
+
+**Home Page**
+
+This page has three sections and, also, an imported map.
+
+- **Hero Image Section**
+
+![Home Page](assets/docs/features/heroimage.png)
+
+Hero image welcomes the user with the "Welcome to Our Cafe" message and a photo of a group of people enjoying the game.
+
+- **Why Visit Us Section**
+
+![Why Visit Us](assets/docs/features/why-visit.png)
+
+This section shows a list of reasons why the cafe is worth visiting, showing the photos to interest the user further.
+
+- **Contact Us Section**
+
+![Contact Us](assets/docs/features/contact-us.png)
+
+This section displays the contact details for the cafe, including the address, telephone number and opening times.
+
+- **Map**
+
+![Map](assets/docs/features/map.png)
+
+This part of the Home Page has an imported map from Google Maps to make it easier for visitors to find the location of the cafe.
+
+**Board Game Hire Page**
+
+This page has been split into two sections, Our Prices and a Booking Form.
+
+- **Our Prices**
+
+![Our Prices](assets/docs/features/our-prices.png)
+
+This section shows the price list, which would be useful to the users to know how much they may potentially spend dependind on the group size.
+
+- **Booking Form**
+
+![Booking Form](assets/docs/features/booking-form.png)
+
+This section ahs a booking form asking the user to fill out some details if they wish to make a table or a room.
+
+**Competition Entry Page**
+
+- **Prize Draw Form**
+
+![Prize Draw](assets/docs/features/competition-entry.png)
+
+This section has a competition entry form, which a users can fill out by answering some questions if they want to have a chance to win a voucher to spend in the cafe.
+
+**404 Error Page**
+
+![404 Error Page](assets/docs/features/error-page.png)
+
+There is also a 404 Error page, which is hidden from users and would only be visible if the name of the page is entered incorrectly.
 
 ## Technologies Used
 
