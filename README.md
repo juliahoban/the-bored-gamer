@@ -159,6 +159,8 @@ Markdown has been used to create README file.
 
 ### W3C Validator
 
+All pages have been tested using W3C validators with only minor errors found, which have since been fixed.
+
 ### Solved Bugs
 
 ### Lighthouse
