@@ -170,11 +170,10 @@ main {
 
 /* Images styles */
 .list-image {
-    opacity: 90%;
-    height: 150px;
+    height: auto;
     width: 150px;
-    border-radius: 0%;
     display: flex;
+    border: solid 1px;
 }
 
 
@@ -235,7 +234,9 @@ iframe {
 
 
 #booking-form {
-    border: #686763 solid;
+    border: #686763 solid 1px;
+    border-radius: 5%;
+    background-color: #f5f4ef;
     color: #686763;
     padding: 5px;
     margin: auto;
