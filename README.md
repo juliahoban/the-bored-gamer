@@ -114,13 +114,13 @@ This page has been split into two sections, Our Prices and a Booking Form.
 
 ![Our Prices](assets/docs/features/our-prices.png)
 
-This section shows the price list, which would be useful to the users to know how much they may potentially spend dependind on the group size.
+This section shows the price list, which would be useful to the users to know how much they may potentially spend depending on the group size.
 
 - **Booking Form**
 
 ![Booking Form](assets/docs/features/booking-form.png)
 
-This section has a booking form asking the user to fill out some details if they wish to make a table or a room.
+This section has a booking form asking the user to fill out some details if they wish to book a table or a room.
 
 **Competition Entry Page**
 
