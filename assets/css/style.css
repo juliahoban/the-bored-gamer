@@ -312,13 +312,20 @@ iframe {
 #error-main {
     display: flex;
     flex-direction: column;
+    place-content: center;
+    align-items: center;
 }
+
+#error-content > p {
+    text-align: center;
 
 #error-image {
     height: auto;
     width: 200px;
     display: flex;
     border: solid 1px;
+    align-items: center;
+    margin-top: 22px;
 
 }
 
@@ -371,6 +378,10 @@ iframe {
     
     #contact-details {
         font-size: 15px;
+    }
+
+    #error-image {
+       width: 300px;
     }
 
 
