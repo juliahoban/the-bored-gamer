@@ -136,10 +136,11 @@ main {
     align-items: center;
 }
 
-#welcome-text>h1 {
+#welcome-text>h2 {
     color: #f5f4ef;
     font-size: 200%;
     font-weight: 300;
+    text-decoration: none;
 }
 
 #hero {
@@ -351,7 +352,7 @@ iframe {
         height: 400px;
     }
 
-    #welcome-text>h1 {
+    #welcome-text>h2 {
         font-size: 300%;
     }
 
