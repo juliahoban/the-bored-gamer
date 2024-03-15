@@ -141,6 +141,7 @@ There is also a 404 Error page, which is hidden from users and would only be vis
 ### Languages Used
 
 The website has been built using purely HTML and CSS.
+Markdown has been used to create README file.
 
 ### Programs and Libraries Used
  
