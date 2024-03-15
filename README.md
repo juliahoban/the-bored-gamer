@@ -120,7 +120,7 @@ This section shows the price list, which would be useful to the users to know ho
 
 ![Booking Form](assets/docs/features/booking-form.png)
 
-This section ahs a booking form asking the user to fill out some details if they wish to make a table or a room.
+This section has a booking form asking the user to fill out some details if they wish to make a table or a room.
 
 **Competition Entry Page**
 
