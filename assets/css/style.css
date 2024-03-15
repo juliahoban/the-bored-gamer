@@ -340,40 +340,30 @@ iframe {
         font-size: 25px;
     }
 
-    #azul {
-        height: 250px;
-        width: 250px;
+    .list-image {
+        width: 300px;
     }
 
-    #backgammon {
-        height: 250px;
-        width: 250px;
+    #about-us p {
+        font-size: 20px;
     }
 
-    #workerplacement {
-        height: 250px;
-        width: 250px;
-    }
 
     #competition-page {
         background-position: center;
         position: relative;
     }
-
-    th {
-        font-size: 25px;
+    
+    #contact-details {
+        font-size: 15px;
     }
 
-    td {
-        font-size: 20px;
-        padding: 5px;
-    }
 
 }
 
 @media screen and (min-width: 1200px) {
     #hero-image {
-        height: 600px;
+        height: 500px;
     }
 
 }
