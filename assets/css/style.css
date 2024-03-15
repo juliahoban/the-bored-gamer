@@ -302,8 +302,16 @@ iframe {
 }
 
 /* 404 Error Page Styles */
-#error-page {
+#error-heading {
+    text-align: center;
+    font-family: "Courgette", sans-serif;
+    font-weight: 400;
+    color: #e07a5f;
+}
+
+#error-main {
     display: flex;
+    flex-direction: column;
 }
 
 
