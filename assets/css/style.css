@@ -314,6 +314,13 @@ iframe {
     flex-direction: column;
 }
 
+#error-image {
+    height: auto;
+    width: 200px;
+    display: flex;
+    border: solid 1px;
+
+}
 
 /* Media query: tablets and larger (768px and up */
 @media screen and (min-width: 768px) {
