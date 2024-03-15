@@ -19,7 +19,7 @@ Deployed project can be viewed here [The Bored Gamer Cafe](https://juliahoban.gi
    * [Features](#features)
 
 * [Technologies Used](#technologies-used)
-    * [Languages Used](#languages)
+    * [Languages Used](#languages-used)
     * [Programs and Libraries Used](#programs-and-libraries-used)
 
 * [Deployment](#deployment)
@@ -31,6 +31,7 @@ Deployed project can be viewed here [The Bored Gamer Cafe](https://juliahoban.gi
 
 * [Credits](#credits)
     * [Code Used](#code-used)
+    * [Content](#content)
     * [Media](#media)
     * [Aknowledgements](#aknowledgements)
 
@@ -70,13 +71,13 @@ The Bored Gamer website consists of 4 pages: Home page, Board Game Hire Page, Co
 
 ![header](assets/docs/features/header.png)
 
-The header of the website shows the name of the cafe and a navigation bar. It is fully responsive to work on any device and collapses into a burger icon when viewed on mobile screens.
+The header of the website shows the name of the cafe and a navigation bar. It is fully responsive to work on any device and the navbar collapses into a burger icon when viewed on mobile screens.
 
 **The Footer**
 
 ![footer](assets/docs/features/footer.png)
 
-The footer displays three social media clicable links to take the user directly to social media pages. The footer is fully responsive to work on any device.
+The footer displays three social media clickable links to take the user directly to social media pages. The footer is fully responsive to work on any device.
 
 **Home Page**
 
@@ -114,13 +115,13 @@ This page has been split into two sections, Our Prices and a Booking Form.
 
 ![Our Prices](assets/docs/features/our-prices.png)
 
-This section shows the price list, which would be useful to the users to know how much they may potentially spend depending on the group size.
+This section shows the price list, which would be useful to the users to know how much they may potentially spend dependind on the group size.
 
 - **Booking Form**
 
 ![Booking Form](assets/docs/features/booking-form.png)
 
-This section has a booking form asking the user to fill out some details if they wish to book a table or a room.
+This section ahs a booking form asking the user to fill out some details if they wish to make a table or a room.
 
 **Competition Entry Page**
 
@@ -140,13 +141,14 @@ There is also a 404 Error page, which is hidden from users and would only be vis
 
 ### Languages Used
 
-The website has been built using purely HTML and CSS.
-Markdown has been used to create README file.
+The website has been built using purely HTML and CSS languages.
+Markdown language has been used to create README file.
 
 ### Programs and Libraries Used
  
  * Git - for version control
  * Github - to save and store the website files
+ * Gitpod - to write and edit the code
  * Google Fonts - to import chosen fonts
  * Font Awesome - to import chosen text icons
  * Chrome Dev Tools - to identify and fix bugs
@@ -155,20 +157,121 @@ Markdown has been used to create README file.
 
 ## Deployment
 
+The Bored games website has been deployed through Github following these steps:
+
+1. Find the relevant repository
+2. Click "Settings" in the top right corner of the bar
+3. On the left side, select "Pages"
+3. Set Source as "Deploy from Branch"
+4. Select "Main Branch"
+5. Set folder to "root"
+6. Click "Save"
+7. Return to your repository and refresh your page after a few moments.
+8. Click on "github-pages" and click "View Deployment"
+9. Your deployed project is now visible
+
 ## Testing
+
+All website pages have been tested on Chrome, Microsoft Edge and Safari Browsers.
 
 ### W3C Validator
 
 All pages have been tested using W3C validators with only minor errors found, which have since been fixed.
 
+**HTML Validation**
+
+- **Home Page**
+
+![Home Page HTML Validation](assets/docs/testing/cssvalidator/htmlvalidator/htmlhomepage.png)
+
+- **Board Game Hire Page**
+
+![Board Game Hire Page HTML Validation](assets/docs/testing/cssvalidator/htmlvalidator/htmlhirepage.png)
+
+- **Competition Entry Page**
+
+![Competition Entry Page HTML Validation](assets/docs/testing/cssvalidator/htmlvalidator/htmlcompetitionpage.png)
+
+- **404 Error Page**
+
+![404 Error Page HTML Validation](assets/docs/testing/cssvalidator/htmlvalidator/html404page.png)
+
+**CSS Validation**
+
+- **CSS Validation All Pages**
+
+![CSS Validation All Pages](assets/docs/testing/cssvalidator/cssvalidator.png)
+
+
+
 ### Solved Bugs
 
+There were numerous bugs throughout the project process, for example the navbar contents were not taking the whole width of the footer, which has been solved by usng flexbox properties.
+Most of the bugs were related to website responsiveness not behaving in a desired manner, however, these bugs have been fixed using Media Queries for tablets and larger screens.
+
 ### Lighthouse
+
+Every page of the website has been tested for Lighthouse scores for both desktop and mobile screens and the scores are as follows:
+
+**Desktop**
+
+- **Home Page**
+
+![Home Page Lighthouse Score](assets/docs/testing/lighthouse/home-page-desktop.png)
+
+- **Board game Hire Page**
+
+![Board game Hire Page Lighthouse Score](assets/docs/testing/lighthouse/hire-page-desktop.png)
+
+- **Competition Entry Page**
+
+![Competition Entry Page Lighthouse Score](assets/docs/testing/lighthouse/competition-page-desktop.png)
+
+- **404 Error Page**
+
+![404 Error Page Lighthouse Score](assets/docs/testing/lighthouse/error-page-desktop.png)
+
+**Mobile**
+
+- **Home Page**
+
+![Home Page Lighthouse Score](assets/docs/testing/lighthouse/home-page-mobile.png)
+
+- **Board game Hire Page**
+
+![Board game Hire Page Lighthouse Score](assets/docs/testing/lighthouse/hire-page-mobile.png)
+
+- **Competition Entry Page**
+
+![Competition Entry Page Lighthouse Score](assets/docs/testing/lighthouse/competition-page-mobile.png)
+
+- **404 Error Page**
+
+![404 Error Page Lighthouse Score](assets/docs/testing/lighthouse/error-page-mobile.png)
 
 ## Credits
 
 ### Code Used
 
-### Media
+The following HTML and CSS code has been adopted from the ""Love Running" project to create a navbar.
+
+![Love Running Code HTML](assets/docs/nav-toggle-code-html.png)
+
+![Love Running Code CSS](assets/docs/nav-toggle-code-css.png)
+
+### Content
+
+All written content has been created by myself.
+I have, also, taken an inspiration from [Love Running project](https://juliahoban.github.io/love-running/) to organise the pages and for the website to look good by applying CSS code.
+
+### Media 
+
+**Images**
+
+All images have been imported from [Pexels Website](https://www.pexels.com/)
 
 ### Aknowledgements
+
+I would like to thank [Kera Cudmore](https://github.com/kera-cudmore) for her inspiration on how to write a README file, my mentor [Graeme Taylor](https://github.com/G-Taylor) for his continuous support and guidance, Code Institute programme creators for the incredible learning materials, and, of course, my felllow students for answering as many questions as they could along the way!
+
+[Back to Contents](#contents)
