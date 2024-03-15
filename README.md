@@ -2,15 +2,15 @@
 
 The Bored Gamer Cafe Website has been designed to work on any device for better user experience. It is very simple to navigate through the navbar located in the top right corner.
 
-<-Screenshot of the responsive website->
+![Responsive The Bored Gamer website](assets/docs/amiresponsive.png)
 
 Deployed project can be viewed here [The Bored Gamer Cafe](https://juliahoban.github.io/the-bored-gamer/).
 
 # Contents
 
 * [User Experience](#user-experience)
-    * [Website Overview](#website-Overview)
-    * [Website Structure](#website-structure)
+    * [Website Overview](#website-overview)
+    * [User Stories](#user-stories)
 
 * [Design](#design)
    * [Colour Scheme](#colour-scheme)
@@ -42,19 +42,15 @@ Deployed project can be viewed here [The Bored Gamer Cafe](https://juliahoban.gi
 
 The Bored Gamer Website has been created for the board game enthusiasts, for people who enjoy getting together and socialise whilst playing a game. The website is very simple to navigate and relevant information can be easily found.
 
-### Website Structure
+### User Stories
 
-The header of the website shows the name of the cafe and a navigation bar.
-Home page displays a hero image of the group of people enjoying the game with the text over it and a list of why people should visit the cafe, contact details and location map.
-Board Game Hire page shows the price list for different group sizes, how board game hire works and how to book a table or a room.
-There is also a Competition Entry page whis has got a form to complete, asking questions like contact details, age and a favourite board game genre.
-There is also a footer where the social media pages can be found.
+Users would benefit from visiting The Bored Gamer website by being able to find out why it would be a good idea to visit the cafe, what is the location, (map has been included for easier access). Board Game Hire page also shows the price list and has a booking form, which is easy to use. There is also a competition entry page, where, by submitting the form, a user can win a voucher to spend in store. There are also links to The Bored Gamer social media channels, where by clicking a link, a user can find out more information about the cafe and all it has to offer.
 
 ## Design
 
 ### Colour Scheme
 
-![The Bored Gamer Website Colour Palette](docs/bored-gamer-colour-palette.png)
+![The Bored Gamer Website Colour Palette](assets/docs/bored-gamer-colour-palette.png)
 
 The above vintage colour palette from [Coolors Website](https://coolors.co/) along with Burnt Sienna has been used throughout The Bored Gamer website.
 
@@ -64,9 +60,19 @@ Mainly Roboto font has been used throughout the website with different styles an
 
 ### Images
 
-There are four images in total used throughout the website, all have been downloaded from [Pexels Website](https://www.pexels.com/). Images have also been compressed to png format to allow for a better Lighthouse performance score.
+There are six images in total used throughout the website, all have been imported from [Pexels Website](https://www.pexels.com/). Images have also been compressed to png format and resized to allow for a better Lighthouse performance score.
 
 ### Features
+
+The Bored Gamer website consists of 4 pages: Home page, Board Game Hire Page, Competition Entry page and 404 Error page, which is hidden and would only be displayed if a user enters the name of the website incorrectly.
+
+**The Header**
+![header]()
+The header of the website shows the name of the cafe and a navigation bar.
+Home page displays a hero image of the group of people enjoying the game with the welcome text over it and a list of why people should visit the cafe, contact details and location map.
+Board Game Hire page shows the price list for different group sizes and has a booking form.
+There is also a Competition Entry page whis has got a form to complete, asking questions like contact details, age and a favourite board game genre.
+There is also a footer where the social media pages can be found.
 
 ## Technologies Used
 
