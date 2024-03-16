@@ -62,7 +62,7 @@ Mainly Roboto font has been used throughout the website with different styles an
 
 ### Images
 
-There are six images in total used throughout the website, all have been imported from [Pexels Website](https://www.pexels.com/). Images have also been compressed to png format and resized to allow for a better Lighthouse performance score.
+There are six images in total used throughout the website, all have been imported from [Pexels Website](https://www.pexels.com/). Images have also been compressed to webp format and resized to allow for a better Lighthouse performance score.
 
 ### Features
 
@@ -116,13 +116,13 @@ This page has been split into two sections, Our Prices and a Booking Form.
 
 ![Our Prices](assets/docs/features/our-prices.png)
 
-This section shows the price list, which would be useful to the users to know how much they may potentially spend dependind on the group size.
+This section shows the price list, which would be useful to the users to know how much they may potentially spend depending on the group size.
 
 - **Booking Form**
 
 ![Booking Form](assets/docs/features/booking-form.png)
 
-This section ahs a booking form asking the user to fill out some details if they wish to make a table or a room.
+This section has a booking form asking the user to fill out some details if they wish to make a table or a room.
 
 **Competition Entry Page**
 
@@ -183,7 +183,7 @@ All website pages have been tested on Chrome, Microsoft Edge and Safari Browsers
 
 ### W3C Validator
 
-All pages have been tested using W3C validators with only minor errors found, which have since been fixed.
+All pages have been tested using W3C validator for both HTML and CSS code with only minor errors found, which have since been fixed.
 
 **HTML Validation**
 
@@ -208,8 +208,6 @@ All pages have been tested using W3C validators with only minor errors found, wh
 - **CSS Validation All Pages**
 
 ![CSS Validation All Pages](assets/docs/testing/cssvalidator/cssvalidator.png)
-
-
 
 ### Solved Bugs
 
