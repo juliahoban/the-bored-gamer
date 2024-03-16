@@ -177,8 +177,6 @@ main {
     border: solid 1px;
 }
 
-
-
 /* Contact us section */
 #contact-us {
     color: #686763;
@@ -193,8 +191,6 @@ main {
     padding: 20px;
     font-size: 12px;
 }
-
-
 
 /* iframe */
 iframe {
@@ -232,7 +228,6 @@ iframe {
     padding: 10px;
     flex-grow: 1;
 }
-
 
 #booking-form {
     border: #686763 solid 1px;
@@ -372,7 +367,6 @@ iframe {
         font-size: 20px;
     }
 
-
     #competition-page {
         background-position: center;
         position: relative;
@@ -385,7 +379,6 @@ iframe {
     #error-image {
        width: 300px;
     }
-
 
 }
 
