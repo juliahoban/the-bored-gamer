@@ -17,6 +17,7 @@ Deployed project can be viewed here [The Bored Gamer Cafe](https://juliahoban.gi
    * [Fonts](#fonts)
    * [Images](#images)
    * [Features](#features)
+   * [Future Implementations](#future-implementations)
 
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
@@ -136,6 +137,12 @@ This section has a competition entry form, which a users can fill out by answeri
 ![404 Error Page](assets/docs/features/error-page.png)
 
 There is also a 404 Error page, which is hidden from users and would only be visible if the name of the page is entered incorrectly.
+
+### Future Implementations
+
+* Use JavaScript to add alt text to background images for screenreaders assistance
+* Add an online store to the website to allow visitors buy board games
+* Make the website more interactive by using JavaScript
 
 ## Technologies Used
 
